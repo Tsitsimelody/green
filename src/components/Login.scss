@@ -1,0 +1,63 @@
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.panel {
+    background: white;
+    width: 350px;
+    padding: 40px;
+    box-shadow: 0px 0px 2px 1px #e4e4e4;
+}
+
+p {
+    color: #bbbbbb;
+    margin-top: -18px;
+    font-size: 13px;
+}
+
+h2 {
+    color: #4d474c;
+}
+
+.form-control {
+    padding-top: 30px;
+}
+
+label {
+    color: #989898;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.input-container {
+    padding-top: 8px;
+}
+
+.input {
+    width: 100%;
+    max-width: 315px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.checkbox-container {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    gap: 6px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    cursor: pointer;
+}

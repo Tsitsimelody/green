@@ -1,0 +1,14 @@
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.panel {
+    background: white;
+    width: 350px;
+    padding: 40px;
+    box-shadow: 0px 0px 2px 1px #e4e4e4;
+}
